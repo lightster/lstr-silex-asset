@@ -1,0 +1,21 @@
+{
+	"name": "lightster/lstr-silex-asset",
+	"description": "Lstr/Silex/Asset Library",
+	"keywords": [
+		"silex",
+		"lstr",
+		"lightster",
+		"asset"
+	],
+	"homepage": "http://lightdatasys.com",
+	"autoload": {
+		"psr-0": {
+			"Lstr\\Silex\\Asset\\": "src/Lstr/Silex"
+		}
+	},
+	"require": {
+		"php": ">=5.3",
+		"lightster/assetrinc": "0.0.7",
+		"silex/silex": "~1.1"
+	}
+}
