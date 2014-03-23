@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9c7e09d37c8ba3e532a75aae8604a31d",
+    "hash": "0547454fdc3893a7a5b5732ad4b63c8d",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
