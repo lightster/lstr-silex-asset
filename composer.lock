@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0547454fdc3893a7a5b5732ad4b63c8d",
+    "hash": "2755306079e4ed863a2089bfa9874fc8",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -77,21 +77,68 @@
             "time": "2013-07-19 00:03:27"
         },
         {
-            "name": "lightster/assetrinc",
-            "version": "v0.0.7",
+            "name": "leafo/scssphp",
+            "version": "v0.0.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/lightster/assetrinc.git",
-                "reference": "af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b"
+                "url": "https://github.com/leafo/scssphp.git",
+                "reference": "a06d702ebf9fabb22542bbb27cc12a905813bb6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b",
-                "reference": "af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/a06d702ebf9fabb22542bbb27cc12a905813bb6d",
+                "reference": "a06d702ebf9fabb22542bbb27cc12a905813bb6d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "php": ">=5.3.0",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "pscss"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "scss.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://leafo.net/scssphp/",
+            "time": "2013-12-23 23:28:02"
+        },
+        {
+            "name": "lightster/assetrinc",
+            "version": "v0.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lightster/assetrinc.git",
+                "reference": "0ba399e87ea486d49923329f7bacb18fe5fb5506"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/0ba399e87ea486d49923329f7bacb18fe5fb5506",
+                "reference": "0ba399e87ea486d49923329f7bacb18fe5fb5506",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/assetic": "~1.1",
+                "leafo/scssphp": "0.0.9",
                 "php": ">=5.3.3",
                 "zacharyrankin/sprocketeer": "0.0.6"
             },
@@ -110,7 +157,7 @@
                 "lightster",
                 "php"
             ],
-            "time": "2014-03-20 19:21:48"
+            "time": "2014-03-25 04:37:13"
         },
         {
             "name": "pimple/pimple",
