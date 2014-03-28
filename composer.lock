@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2755306079e4ed863a2089bfa9874fc8",
+    "hash": "dddee8e2bbf0a68b31aa1527e7a0383e",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -124,16 +124,16 @@
         },
         {
             "name": "lightster/assetrinc",
-            "version": "v0.0.8",
+            "version": "v0.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/assetrinc.git",
-                "reference": "0ba399e87ea486d49923329f7bacb18fe5fb5506"
+                "reference": "69827a69f55370fe8070a031a150ec13957fbd22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/0ba399e87ea486d49923329f7bacb18fe5fb5506",
-                "reference": "0ba399e87ea486d49923329f7bacb18fe5fb5506",
+                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/69827a69f55370fe8070a031a150ec13957fbd22",
+                "reference": "69827a69f55370fe8070a031a150ec13957fbd22",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,7 @@
                 "lightster",
                 "php"
             ],
-            "time": "2014-03-25 04:37:13"
+            "time": "2014-03-28 04:34:07"
         },
         {
             "name": "pimple/pimple",
