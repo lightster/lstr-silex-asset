@@ -15,7 +15,7 @@
 	},
 	"require": {
 		"php": ">=5.3",
-		"lightster/assetrinc": "~0.1",
+		"lightster/assetrinc": "~0.2",
 		"silex/silex": "~1.1"
 	}
 }

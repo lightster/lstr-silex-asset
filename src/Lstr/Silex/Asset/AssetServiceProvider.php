@@ -12,8 +12,8 @@ namespace Lstr\Silex\Asset;
 
 use ArrayObject;
 
-use Lstr\Assetrinc\AssetService;
-use Lstr\Assetrinc\ResponseAdapter\Symfony as SymfonyResponseAdapter;
+use Assetrinc\AssetService;
+use Assetrinc\ResponseAdapter\Symfony as SymfonyResponseAdapter;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
