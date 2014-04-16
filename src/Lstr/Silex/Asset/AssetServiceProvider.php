@@ -20,11 +20,25 @@ use Silex\ServiceProviderInterface;
 
 class AssetServiceProvider implements ServiceProviderInterface
 {
+    private $defaults;
+
+    public function __construct(array $defaults = array())
+    {
+        $this->defaults = array_replace(
+            array(
+                'path'       => new ArrayObject(),
+                'assetrinc'  => array(),
+                'url_prefix' => null,
+            ),
+            $defaults
+        );
+    }
+
     public function register(Application $app)
     {
-        $app['lstr.asset.path']       = new ArrayObject();
-        $app['lstr.asset.assetrinc']  = array();
-        $app['lstr.asset.url_prefix'] = null;
+        $app['lstr.asset.path']       = $this->defaults['path'];
+        $app['lstr.asset.assetrinc']  = $this->defaults['assetrinc'];
+        $app['lstr.asset.url_prefix'] = $this->defaults['url_prefix'];
 
         $app['lstr.asset.configurer'] = $app->protect(function (Application $app) {
             if (empty($app['lstr.asset.assetrinc'])
