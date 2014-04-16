@@ -3,8 +3,44 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f49a5f837acb7532a233779864a2a910",
+    "hash": "fc73c077b9a2becfb296c6449d5fc149",
     "packages": [
+        {
+            "name": "assetrinc/assetrinc",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/assetrinc/assetrinc.git",
+                "reference": "b6624c2cd6289c848f5a24055074063ad1ffb55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/assetrinc/assetrinc/zipball/b6624c2cd6289c848f5a24055074063ad1ffb55f",
+                "reference": "b6624c2cd6289c848f5a24055074063ad1ffb55f",
+                "shasum": ""
+            },
+            "require": {
+                "kriswallsmith/assetic": "~1.1",
+                "leafo/scssphp": "0.0.9",
+                "php": ">=5.3.3",
+                "zacharyrankin/sprocketeer": "~0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Assetrinc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "An unusually simple way to include assets",
+            "homepage": "http://github.com/assetrinc/assetrinc",
+            "keywords": [
+                "assentric",
+                "assets",
+                "php"
+            ],
+            "time": "2014-04-15 05:38:36"
+        },
         {
             "name": "kriswallsmith/assetic",
             "version": "v1.1.2",
@@ -121,43 +157,6 @@
             "description": "scssphp is a compiler for SCSS written in PHP.",
             "homepage": "http://leafo.net/scssphp/",
             "time": "2013-12-23 23:28:02"
-        },
-        {
-            "name": "lightster/assetrinc",
-            "version": "v0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lightster/assetrinc.git",
-                "reference": "d397e4dc50db378b7998f982db7cec95b93ad595"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/d397e4dc50db378b7998f982db7cec95b93ad595",
-                "reference": "d397e4dc50db378b7998f982db7cec95b93ad595",
-                "shasum": ""
-            },
-            "require": {
-                "kriswallsmith/assetic": "~1.1",
-                "leafo/scssphp": "0.0.9",
-                "php": ">=5.3.3",
-                "zacharyrankin/sprocketeer": "~0.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Assetrinc\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "An unusually simple way to include assets",
-            "homepage": "http://github.com/lightster/assetrinc",
-            "keywords": [
-                "assentric",
-                "assets",
-                "lightster",
-                "php"
-            ],
-            "time": "2014-04-11 06:09:06"
         },
         {
             "name": "pimple/pimple",
