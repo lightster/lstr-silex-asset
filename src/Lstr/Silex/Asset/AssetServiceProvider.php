@@ -41,6 +41,14 @@ class AssetServiceProvider implements ServiceProviderInterface
         $app['lstr.asset.url_prefix'] = $this->defaults['url_prefix'];
 
         $app['lstr.asset.configurer'] = $app->protect(function (Application $app) {
+            if (!empty($app['config']['lstr.asset.path'])) {
+                foreach ($app['config']['lstr.asset.path'] as $namespace => $path) {
+                    if (!empty($path)) {
+                        $app['lstr.asset.path'][$namespace] = $path;
+                    }
+                }
+                $app['lstr.asset.path'] = $app['config']['lstr.asset.path'];
+            }
             if (empty($app['lstr.asset.assetrinc'])
                 && !empty($app['config']['lstr.asset.assetrinc'])
             ) {
